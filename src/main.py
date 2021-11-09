@@ -1,1 +1,4 @@
-print("Let's start big project")
+
+
+if __name__ == '__main__':
+    print("Git")

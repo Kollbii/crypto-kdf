@@ -5,14 +5,10 @@ Cryptography project [AGH UST]
 1. Intro - Czym jest KDF
 1. Prosty przykład w rozwiązaniu sieciowym - LM Hash
 1. Od podstawy do czegoś skomplikowanego.
-    1. Pokazać UNIX-Crypt(krótko) --> MD5. Bez soli!!
-1. Dobra funkcja KDF? Definicja? Co powinna zapewniać (Memory-Hardness, Resistant to Cache Attacks, [...])
-
-Wersja do wyboru:
-1. Scrypt wchodzący w yescrypta! <--- Na pewno yesscrypt jest zbudowany na scrypt info: https://www.openwall.com/yescrypt/
-Lub
-1. bcrypt implementacja wchodząca w Balloon Hashing. Pierwszy Solony! 
-1. Ciekawostka yescrypt. Debian/Fedora default
+    1. UNIX-Crypt (krótko) --> MD5. Bez soli!
+    1. Dobra funkcja KDF? Co powinna zapewniać (Memory-Hardness, Resistant to Cache Attacks, [...])
+    1. Scrypt wchodzący w yescrypta! <--- yesscrypt jest zbudowany na scrypt info: https://www.openwall.com/yescrypt/
+1. Ciekawostka Balloon Hashing. 
 
 ### Directory layout
     .
@@ -20,17 +16,18 @@ Lub
     │   └── main.py
     ├── tests                           # Tests, scoring system
     ├── .gitignore
+    ├── kdf.ipynb
     ├── README.md
     └── requirements.txt
 
 ### Usage
 
 ```bash
-    echo "Insert tuto here later"
+    $> jupyter notebook
 ```
 ### Credits and used links for inspirations
 
-1. Link1
+1. https://qvault.io/cryptography/key-derivation-functions/
 1. Link2
 
 ### Annotations
