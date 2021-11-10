@@ -36,7 +36,7 @@ Cryptography project [AGH UST]
 1. https://cryptography.io/en/latest/hazmat/primitives/key-derivation-functions/
 1. https://en.wikipedia.org/wiki/Block_cipher
 1. https://en.wikipedia.org/wiki/Key_stretching
-1.
+1. https://docs.python.org/3/library/hmac.html
 
 ### Annotations
 
