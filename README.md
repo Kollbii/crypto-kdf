@@ -13,6 +13,8 @@ Cryptography project [AGH UST]
 ### Directory layout
     .
     ├── src
+    │   ├── lbk_cll_kdf
+    │   │   └── . . .
     │   └── main.py
     ├── tests                           # Tests, scoring system
     │   ├── test_implementation.py
@@ -30,7 +32,7 @@ Cryptography project [AGH UST]
 ```
 
 ### Credits and used links for inspirations
-
+1. Funkcje wyprowadzania klucza (KDF) wykorzystujące odwzorowanie logistyczne - Grzegorz Frejek
 1. https://qvault.io/cryptography/key-derivation-functions/
 1. https://cryptobook.nakov.com/mac-and-key-derivation/hmac-and-key-derivation
 1. https://cryptography.io/en/latest/hazmat/primitives/key-derivation-functions/

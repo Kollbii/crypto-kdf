@@ -11,3 +11,6 @@ if __name__ == "__main__":
     o = Oralis()
 
     print(s, o)
+
+    from hashlib import sha256
+    print(sha256(b"password").digest().hex())
