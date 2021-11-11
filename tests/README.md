@@ -1,4 +1,4 @@
-### Użycie testów
+### Użycie testów w celu sprawdzenia poprawności napisanych funkcji
 
 1. Instalacja _pytest_
 
