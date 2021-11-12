@@ -1,5 +1,5 @@
-from johny_bravo.johny import Johny
-from johny_bravo.bravo import Bravo
+from src.johny_bravo.johny import Johny
+from src.johny_bravo.bravo import Bravo
 
 class Test_Implementation:
     global j, b
