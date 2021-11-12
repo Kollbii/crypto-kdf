@@ -8,7 +8,8 @@ Contains notebook about key derivation functions and simple implementation of KD
     1. `SHA` oraz `salt`. Funkcje haszujące.
     1. Prosty przykład w rozwiązaniu sieciowym - `LM Hash`. <!-- Do przemyślenia czy wstawiamy gdzieś na początku czy nie 
     1. Dobra funkcja KDF? Co powinna zapewniać (Memory-Hardness).
-    1. `Scrypt` - Atak kanałem bocznym (Side Channel Attack) Resistance to Cache Attacks. https://crypto.stanford.edu/cs359c/17sp/projects/MarkAnderson.pdf
+    1. `Scrypt` omówienie.
+    1. Atak kanałem bocznym w `scrypt` (Side Channel Attack) oraz Resistance to Cache Attacks. https://crypto.stanford.edu/cs359c/17sp/projects/MarkAnderson.pdf
     1. `Yescrypt` bazujący na `scrypt`. <!-- yesscrypt jest zbudowany na scrypt info: https://www.openwall.com/yescrypt/ -->
 1. Ciekawostka `Balloon Hashing`.
 
