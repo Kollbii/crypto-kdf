@@ -1,11 +1,11 @@
-from src.streptococcus_oralis.oralis import Oralis
-from src.streptococcus_oralis.strepto import Strepo
+from johny_bravo.johny import Johny
+from johny_bravo.bravo import Bravo
 
 class Test_Implementation:
-    global s, o
-    s = Strepo()
-    o = Oralis()
+    global j, b
+    j = Johny()
+    b = Bravo()
     
     def test_representation(self):
-        assert s.__str__() == "Implement STREPO class"
-        assert o.__str__() == "Implement ORALIS class"
+        assert j.__str__() == "Implement Johny class"
+        assert b.__str__() == "Implement Bravo class"

@@ -1,6 +1,6 @@
-class Oralis(object):
+class Johny(object):
     def __init__(self):
         pass
 
     def __str__(self):
-        return "Implement ORALIS class"
+        return "Implement Johny class"

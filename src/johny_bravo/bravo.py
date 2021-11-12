@@ -1,6 +1,6 @@
-class Strepo(object):
+class Bravo(object):
     def __init__(self):
         pass
 
     def __str__(self):
-        return "Implement STREPO class"
+        return "Implement Bravo class"
