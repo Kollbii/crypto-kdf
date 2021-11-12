@@ -5,5 +5,7 @@
 ```bash
     pip install pytest
 ```
-
-1. Pytest
+ 
+```bash
+    $> python3 -m pytest
+```

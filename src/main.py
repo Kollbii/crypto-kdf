@@ -1,13 +1,12 @@
-from streptococcus_oralis.strepto import Strepo
-from streptococcus_oralis.oralis import Oralis
+from johny_bravo.johny import Johny
+from johny_bravo.bravo import Bravo
 
 '''
 Streptococcus Oralis
-Short name: strepos(?) storalis(?) strepolis(?) <-- bardzo grecko
 '''
 
 if __name__ == "__main__":
-    s = Strepo()
-    o = Oralis()
+    j = Johny()
+    b = Bravo()
 
-    print(s, o)
+    print(j, b)

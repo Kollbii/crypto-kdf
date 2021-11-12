@@ -1,2 +1,0 @@
-from streptococcus_oralis.oralis import Oralis
-from streptococcus_oralis.strepto import Strepo
