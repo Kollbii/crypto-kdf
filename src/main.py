@@ -1,13 +1,15 @@
 from johny_bravo.johny import Johny
 from johny_bravo.bravo import Bravo
 
+
 '''
 Streptococcus Oralis
-Short name: strepos(?) storalis(?) strepolis(?) <-- bardzo grecko
 '''
 
 if __name__ == "__main__":
-    j = Johny()
+    j = Johny(16)
     b = Bravo()
 
     print(j, b)
+    print(j.blonde16_block('', 'CryptoIsFun'))
+    print(j + b)
