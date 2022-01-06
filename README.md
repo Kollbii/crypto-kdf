@@ -50,6 +50,7 @@ Contains notebook about key derivation functions and simple implementation of KD
 1. https://datatracker.ietf.org/doc/html/rfc7914
 1. https://qvault.io/cryptography/very-basic-intro-to-the-scrypt-hash/
 1. https://courses.csail.mit.edu/6.857/2016/files/salsa20.py
+1. https://github.com/Daeinar/salsa20
 
 ### Annotations
 
