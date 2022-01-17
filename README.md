@@ -6,7 +6,6 @@ Contains notebook about key derivation functions and simple implementation of KD
 1. Wstęp teoretyczny. Czym jest KDF?
 1. Od podstaw do czegoś skomplikowanego.
     1. `SHA` oraz `salt`. Funkcje haszujące.
-    1. Prosty przykład w rozwiązaniu sieciowym - `LM Hash`. <!-- Do przemyślenia czy wstawiamy gdzieś na początku czy nie 
     1. Dobra funkcja KDF? Co powinna zapewniać (Memory-Hardness).
     1. `Scrypt` omówienie.
     1. Atak kanałem bocznym w `scrypt` (Side Channel Attack) oraz Resistance to Cache Attacks. https://crypto.stanford.edu/cs359c/17sp/projects/MarkAnderson.pdf
@@ -16,10 +15,9 @@ Contains notebook about key derivation functions and simple implementation of KD
 ### Directory layout
     .
     ├── src
-    │   ├── lbk_cll_kdf
-    │   │   └── . . .
+    │   ├── salsa20.py
     │   └── main.py
-    ├── tests                           # Tests, scoring system
+    ├── tests
     │   ├── test_implementation.py
     │   └── README.md
     ├── .gitignore
@@ -51,7 +49,9 @@ Contains notebook about key derivation functions and simple implementation of KD
 1. https://qvault.io/cryptography/very-basic-intro-to-the-scrypt-hash/
 1. https://courses.csail.mit.edu/6.857/2016/files/salsa20.py
 1. https://github.com/Daeinar/salsa20
-
+1. https://en.wikipedia.org/wiki/Balloon_hashing
+1. http://www.tarsnap.com/scrypt/scrypt.pdf
+1. https://eprint.iacr.org/2016/027.pdf
 ### Annotations
 
 1. Annotations
