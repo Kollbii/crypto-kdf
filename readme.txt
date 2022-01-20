@@ -1,6 +1,6 @@
 Autorzy:
-    Łukasz Kollbek
     Jakub Dyrcz
+    Łukasz Kollbek
 
 Osiągnięcia:
     1. Wstęp teoretyczny. Czym jest KDF?
@@ -13,4 +13,4 @@ Osiągnięcia:
     3. Ciekawostka `Balloon Hashing`.
     4. Podsumowanie
 
-    5. Implementacja programowa salsa20/8 w języku python
+    5. Implementacja programowa algorytmu salsa20/8 w języku python3
